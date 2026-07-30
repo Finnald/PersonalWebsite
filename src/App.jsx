@@ -44,7 +44,7 @@ function App() {
         <h1 className="text-4xl font-semibold pb-2">Projects</h1>
         <p className="font-light pb-10">These should hopefully fill out over time...</p>
 
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
 
           {data.projects.map(project => (
             <Card name={project.name} desc={project.description} link={project.link} />
