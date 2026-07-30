@@ -15,7 +15,7 @@ function App() {
       <div className="navbar bg-base-200 shadow-sm">
         <div className="flex-1">
           <div className="flex items-center gap-2">
-            <img src="/favicon.png" className="w-14 h-14" />
+            <img src="/public/favicon.png" className="w-14 h-14" />
             <a className="btn btn-ghost text-xl">finnald</a>
           </div>
         </div>
@@ -44,7 +44,7 @@ function App() {
         <h1 className="text-4xl font-semibold pb-2">Projects</h1>
         <p className="font-light pb-10">These should hopefully fill out over time...</p>
 
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
 
           {data.projects.map(project => (
             <Card name={project.name} desc={project.description} link={project.link} />
