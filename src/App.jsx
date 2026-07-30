@@ -15,7 +15,7 @@ function App() {
       <div className="navbar bg-base-200 shadow-sm">
         <div className="flex-1">
           <div className="flex items-center gap-2">
-            <img src="/public/favicon.png" className="w-14 h-14" />
+            <img src="./assets/favicon.png" className="w-14 h-14" />
             <a className="btn btn-ghost text-xl">finnald</a>
           </div>
         </div>
