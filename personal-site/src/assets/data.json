@@ -1,0 +1,14 @@
+{
+    "projects": [
+        {
+            "name": "Personal Website",
+            "description": "That's this page!",
+            "link": "https://finnald.com"
+        },
+        {
+            "name": "smollink",
+            "description": "A small link shortening webapp. Deployed messily across Azure, Supabase and Vercel.",
+            "link": "https://smollink.uk"
+        }
+    ]
+}
