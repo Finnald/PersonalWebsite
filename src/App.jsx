@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Card from './components/Card.jsx'
+import Featured from './components/Featured.jsx'
 import { } from 'lucide-react'
 import data from './assets/data.json'
 import { Mail } from 'lucide-react'
@@ -38,10 +39,21 @@ function App() {
       </div>
 
       {/* page layout  */}
-      <div className="flex flex-col justify-center p-20 items-center">
+      <div className="flex flex-col justify-center items-center">
+
+        {/* Earlier sections */}
+
+        <div className="grid grid-cols-1 gap-5">
+
+          {data.featured.map(featured => (
+            <Featured name={featured.name} desc={featured.description} link={featured.link} />
+          ))}
+
+        </div>
+
 
         {/* projects section */}
-        <h1 className="text-4xl font-semibold pb-2">Projects</h1>
+        <h1 className="text-4xl font-semibold pb-2 pt-20">All Projects</h1>
         <p className="font-light pb-10">These should hopefully fill out over time...</p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">

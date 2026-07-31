@@ -10,5 +10,12 @@
             "description": "A small link shortening webapp. Deployed messily across Azure, Supabase and Vercel.",
             "link": "https://smollink.uk"
         }
+    ],
+    "featured": [
+        {
+            "name": "smollink",
+            "description": "A small link shortening webapp. Deployed messily across Azure, Supabase and Vercel. Currently in development!",
+            "link": "https://smollink.uk"
+        }
     ]
 }
