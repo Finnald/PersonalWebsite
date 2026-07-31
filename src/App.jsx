@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Card from './components/Card.jsx'
 import Featured from './components/Featured.jsx'
+import Hobby from './components/Hobby.jsx'
 import { } from 'lucide-react'
 import data from './assets/data.json'
 import { Mail } from 'lucide-react'
@@ -43,6 +44,9 @@ function App() {
 
         {/* Earlier sections */}
 
+
+
+        {/* featured project */}
         <div className="grid grid-cols-1 gap-5">
 
           {data.featured.map(featured => (
@@ -63,6 +67,11 @@ function App() {
           ))}
 
         </div>
+
+        {/* what else am i doing? */}
+
+        <h1 className="text-4xl font-semibold pb-2 pt-20">What else do I do?</h1>
+        <Hobby />
 
         {/* later sections  */}
 

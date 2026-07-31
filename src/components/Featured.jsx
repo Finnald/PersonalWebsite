@@ -4,7 +4,7 @@ function Featured({ name, desc, link }) {
 
     return (
         <div
-            className="hero w-screen h-[35vh]"
+            className="hero w-screen h-[45vh]"
             style={{
                 backgroundImage: "url('/featured.png')",
                 backgroundSize: "cover",
