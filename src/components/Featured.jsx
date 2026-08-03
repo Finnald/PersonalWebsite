@@ -11,9 +11,9 @@ function Featured({ name, desc, link }) {
                 backgroundPosition: "center",
             }}
         >
-            <div className="hero-overlay"></div>
-            <div className="hero-content text-neutral-content text-center">
-                <div className="max-w-md">
+            <div className="hero-overlay "></div>
+            <div className="hero-content text-neutral-content text-center rounded-md backdrop-blur-xs shadow-2xl">
+                <div className="max-w-md ">
                     <h1 className="mb-3 text-3xl">Featured Project</h1>
                     <h1 className="mb-5 text-5xl font-bold">{name}</h1>
                     <p className="mb-5">

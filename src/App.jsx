@@ -40,7 +40,7 @@ function App() {
       </div>
 
       {/* page layout  */}
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center pb-20">
 
         {/* Earlier sections */}
 
@@ -70,9 +70,13 @@ function App() {
 
         {/* what else am i doing? */}
 
-        <h1 className="text-4xl font-semibold pb-2 pt-20">What else do I do?</h1>
-        <Hobby />
+        <h1 className="text-4xl font-semibold pb-10 pt-20">What else do I do?</h1>
 
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 items-start">
+          {data.hobbies.map(hobby => (
+            <Hobby category={hobby.category} name={hobby.name} desc={hobby.description} image={hobby.image} />
+          ))}
+        </div>
         {/* later sections  */}
 
 
