@@ -3,7 +3,7 @@ import { SquareArrowOutUpRight } from 'lucide-react'
 function Card({ name, desc, link }) {
 
     return (
-        <div className="card bg-base-300 w-96 shadow-sm">
+        <div className="card bg-base-300 w-80 sm:w-96 shadow-2xl">
             <div className="card-body">
                 <h2 className="card-title">{name}</h2>
                 <p>{desc}</p>
