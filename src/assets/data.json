@@ -21,21 +21,21 @@
     "hobbies": [
         {
             "category": "Gaming",
-            "name": "Monster Hunter: Rise",
-            "description": "Currenty replaying Monster Hunter: Rise because I'm just in that Monster Hunter mood.",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqGGPcAoI1Bse7RobRzE4eGy8mGqJO02sLHRYDXOOJemtceW5fayQ-i9s&s=10"
+            "name": "Dave the Diver",
+            "description": "Diving by day, managing a sushi restaurant by night. Very cool.",
+            "image": "https://upload.wikimedia.org/wikipedia/en/d/d4/Dave_the_Diver_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
         },
         {
             "category": "Reading",
-            "name": "The Year of the Flood",
-            "description": "The second book in the Madd Addam series. Oryx and Crake (the first one) was pretty good, so I'm eager to see where the plot goes.",
-            "image": "https://m.media-amazon.com/images/I/71sMS5zr+sL.jpg"
+            "name": "MaddAddam",
+            "description": "Slowly plodding my way through this series",
+            "image": "https://m.media-amazon.com/images/I/61RiqFtqKmL.jpg"
         },
         {
             "category": "Interests",
-            "name": "PC Building and other tech stuff",
-            "description": "I used to work at Crox Computers building PC's and other such stuff. Now, I'll occasionally build PCs for fun, work on my Homelab or tinker with other stuff (like taking 5 hours to replace a DS screen)",
-            "image": "https://plecom.imgix.net/iit-464962-682771.png?fit=fillmax&fill=solid&fill-color=ffffff&auto=format&w=1000&h=1000"
+            "name": "Homelab",
+            "description": "Got a proxmox homelab up and running with Jellyfin, Pihole, Discopanel and more.",
+            "image": "https://24x7servermanagement.com/wp-content/uploads/2025/07/proxmox-server-solutions-gmbh-logo-vector.png"
         }
     ]
 }
