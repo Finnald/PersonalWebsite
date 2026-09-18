@@ -1,14 +1,19 @@
 {
     "projects": [
         {
-            "name": "Personal Website",
-            "description": "That's this page!",
-            "link": "https://finnald.com"
+            "name": "Kiranico Scraper",
+            "description": "The intent behind this project is to create a scaper for Kiranico, a Monster Hunter database. After scraping it's data, I want to be able to process it for analysis.",
+            "link": "https://github.com/Finnald/kiranico-scraper"
         },
         {
             "name": "smollink",
             "description": "A small link shortening webapp. Deployed messily across Azure, Supabase and Vercel.",
             "link": "https://smollink.uk"
+        },
+        {
+            "name": "Personal Website",
+            "description": "That's this page!",
+            "link": "https://finnald.com"
         }
     ],
     "featured": [
